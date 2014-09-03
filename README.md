@@ -19,9 +19,14 @@ Selected items will all be submitted with the name "selection" by default.
 Usage with options:
 
 $.littleList("#selectList", {
+  
   maxItems: -1, // -1 means no limit
+  
   selectionName: "selection",
+  
   onAdd: function(addedOption) { },
+  
   onRemove: function(removedOption) { }
+
 });
 
