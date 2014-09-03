@@ -1,0 +1,43 @@
+.bpp-listbox-outer select
+{
+    width:80%;
+}
+
+
+.bpp-listbox-outer {
+    width:250px;
+    border:1px solid #AAA;
+    padding:2px;
+}            
+
+.bpp-listbox-item {
+    height:28px;
+    width:auto;
+    background-color: #d3e6fb;
+    margin-bottom:2px;
+}
+
+.bpp-listbox-item:nth-child(even)
+{
+    background-color: #dcecf7;                
+}
+
+.bpp-listbox-control {
+    height:21px;
+}
+
+.bpp-item-text
+{
+    display:inline-block;
+    margin:6px;
+}
+            
+#bpp-listbox-inner
+{
+    width:100%;
+}
+
+.bpp-listremove, .bpp-listbox-add
+{
+    float:right;
+}
